@@ -1,7 +1,8 @@
+require 'dse/version'
 require 'openssl'
 require 'base64'
 
-module DSE
+module Dse
 
   DEFAULT_CIPHER = "aes-256-cbc"
 
