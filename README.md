@@ -1,4 +1,5 @@
-# Dse
+# DSE
+[![Build Status](https://travis-ci.org/clindsay107/dse.svg)](https://travis-ci.org/clindsay107/dse)
 
 Dead. Simple. Encryption.
 
@@ -16,10 +17,10 @@ the gem takes care of IV generation and storage for you.
 ## A note on secure passwords
 Simply using a string of (unprocessed) characters is not a very secure password. A simple way to turn a
 human-readable string into a secure password is by leveraging Ruby's OpenSSL::SHA256 module. This provides
-a secure hashing algorithm for a provided plaintext password. Dse will automatically hash a plaintext password
+a secure hashing algorithm for a provided plaintext password. DSE will automatically hash a plaintext password
 using this algorithm. For more information on secure hashing and digests, see [this page](http://ruby-doc.org/stdlib-2.0.0/libdoc/openssl/rdoc/OpenSSL/Digest.html).
 
-**Note** Dse uses SHA256 by default for password hashing.
+**Note** DSE uses SHA256 by default for password hashing.
 
 ## Installation
 
